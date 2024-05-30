@@ -34,12 +34,11 @@ def simulate(bodies, dt, steps):
             positions[i].append(body.position.copy())
     return positions
 
-# Initialize four bodies
+# Initialize three bodies
 bodies = [
     Body(1.0, [1, 0, 0], [0, 1, 0]),
     Body(1.0, [-1, 0, 0], [0, -1, 0]),
-    Body(0.5, [0, 1, 0], [1, 0, 0]),
-    Body(0.5, [0, -1, 0], [-1, 0, 0])
+    Body(0.5, [0, 1, 0], [1, 0, 0])
 ]
 
 # Simulation parameters
