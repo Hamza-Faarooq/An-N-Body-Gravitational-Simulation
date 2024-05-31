@@ -3,6 +3,7 @@
 
 ## Overview
 This project simulates the motion of N celestial bodies under the influence of gravitational forces using Python. The simulation leverages the Pygame library for visualization and NumPy for numerical computations. This project is an excellent showcase of combining physics, mathematics, and programming to simulate complex systems.
+This includes both the widely famous 3 and 4 body problems.
 
 ## Features
 - **Gravitational Force Calculation**: Calculates the gravitational force between each pair of celestial bodies.
